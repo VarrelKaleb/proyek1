@@ -4,9 +4,11 @@ const cors = require("cors");
 const pool = require("./db");
 const app = express();
 const PORT = 3000;
-app.use(cors({
-  origin: "http://localhost:5173",
-}));
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  })
+);
 app.use(express.json());
 app.get("/", (req, res) => {
   res.send("Hello World from Express.js!");
