@@ -17,15 +17,28 @@ Proyek ini dibuat dengan  menggunakan teknologi sebagai berikut:
 - **ORM/Query Builder**: pg (node-postgres).
 - **Package Manager**: npm
 - **Middleware**: CORS dan Express.json untuk komunikasi antara frontend dan backend.
-### Instalasi & Konfigurasi ###
-**Menyalin repository ke lokal**
+<br>
+
+## Fitur yang ada di dalam program
+- **Tambah Produk☑️**
+- **Melihat List Produk☑️**
+- **Edit Produk☑️**
+- **Hapus Produk☑️**
+- **Notif Toaster☑️**
+- **Validasi Input☑️**
+## Instalasi & Konfigurasi ###
+
+
+### Menyalin repository ke lokal
+
 ```bash
 git clone <URL_REPO_USER>
 cd <NAMA_FOLDER_REPO>
 ```
 
-### Menginstall Dependencies ###
+### Menginstall Dependencies ##
 ```js
+cd <NAMA-FOLDER-FRONTEND>
 npm install
 ```
 **Konfigurasi Database**
@@ -44,7 +57,7 @@ module.exports = pool;
 ```
 <br>
 
-### Menjalankan Aplikasi ### 
+### Menjalankan Aplikasi ## 
 - Backend
   ```js
   node index.js
@@ -72,7 +85,7 @@ proyek/
 ```
 <br>
 
-### Endpoint API ###
+## Endpoint API ##
 | Method | Endpoint          | Fungsi                  |
 |--------|-------------------|-------------------------|
 | GET    | /produk           | Ambil semua produk      |
@@ -80,6 +93,8 @@ proyek/
 | PUT    | /produk/:id       | Update produk           |
 | DELETE | /produk/:id       | Hapus produk            |
 
-### Pengerjaan Proyek Ini di lakukan:
+<br>
+
+## Pengerjaan Proyek Ini di lakukan:
 Varrel Kaleb Ropard Pasaribu - (10231089) FrontEnd <br>
 Betran - (10231023) BackEnd
