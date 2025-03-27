@@ -1,6 +1,6 @@
 # APLIKASI E-COMMERCE SEDERHANA
 Aplikasi ini adalah Product Management App, sebuah sistem sederhana untuk mengelola daftar produk. Pengguna dapat menambahkan, melihat, mengedit, dan menghapus produk melalui antarmuka berbasis web. Backend menggunakan Express.js dan database PostgreSQL, sedangkan frontend dibangun dengan React.js.
-## Fitur Utama
+### Fitur Utama ###
 1. Menambah Produk<br>
 ![](1.jpg)<br><br>
 2. Menampilkan Daftar Produk<br>
@@ -10,20 +10,21 @@ Aplikasi ini adalah Product Management App, sebuah sistem sederhana untuk mengel
 ![](4.jpg)<br><br>
 4. Menghapus Produk<br>
 ![](5.jpg)<br><br>
-## Teknologi yang Digunakan
+### Teknologi yang Digunakan ###
 Proyek ini dibuat dengan  menggunakan teknologi sebagai berikut:
 - **Frontend**: React.js dengan Bootstrap untuk styling.
 - **Backend**: Node.js dengan Express.js.
 - **ORM/Query Builder**: pg (node-postgres).
 - **Package Manager**: npm
 - **Middleware**: CORS dan Express.json untuk komunikasi antara frontend dan backend.
-## Instalasi & Konfigurasi
+### Instalasi & Konfigurasi ###
 **Menyalin repository ke lokal**
 ```bash
 git clone <URL_REPO_USER>
 cd <NAMA_FOLDER_REPO>
 ```
-**Menginstall Dependencies**
+
+### Menginstall Dependencies ###
 ```js
 npm install
 ```
@@ -41,7 +42,9 @@ const pool = new Pool({
 
 module.exports = pool;
 ```
-**Menjalankan Aplikasi**
+<br>
+
+### Menjalankan Aplikasi ### 
 - Backend
   ```js
   node index.js
@@ -50,6 +53,7 @@ module.exports = pool;
   ```js
   npm run dev
   ```
+  <br>
 ## Struktur Proyek
 ```bash
 proyek/
@@ -66,3 +70,16 @@ proyek/
 |  |__App.jsx
 |__data.rest
 ```
+<br>
+
+### Endpoint API ###
+| Method | Endpoint          | Fungsi                  |
+|--------|-------------------|-------------------------|
+| GET    | /produk           | Ambil semua produk      |
+| POST   | /produk           | Tambah produk baru      |
+| PUT    | /produk/:id       | Update produk           |
+| DELETE | /produk/:id       | Hapus produk            |
+
+### Pengerjaan Proyek Ini di lakukan:
+Varrel Kaleb Ropard Pasaribu - (10231089) FrontEnd <br>
+Betran - (10231023) BackEnd
